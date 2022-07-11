@@ -26,13 +26,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.arraysChallenges">
+    <configuration name="Peak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraysChallenge.Peak" />
+      <module name="Week 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraysChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseGuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challengeQuestions.ReverseGuessingGame" />
       <module name="Week 1" />
@@ -46,8 +59,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraysChallenge.SumOfArrays" />
+      <module name="Week 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraysChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arraysChallenges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraysChallenge.arraysChallenges" />
+      <module name="Week 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraysChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.arraysChallenges" />
+        <item itemvalue="Application.Peak" />
+        <item itemvalue="Application.SumOfArrays" />
         <item itemvalue="Application.ReverseGuessingGame" />
       </list>
     </recent_temporary>
