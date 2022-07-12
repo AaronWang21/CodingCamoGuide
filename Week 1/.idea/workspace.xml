@@ -32,9 +32,22 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseArray">
+  <component name="RunManager" selected="Application.FindThreeNumbers">
     <configuration name="FindMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arraysChallenge.FindMinMax" />
+      <module name="Week 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraysChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindThreeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraysChallenge.FindThreeNumbers" />
       <module name="Week 1" />
       <extension name="coverage">
         <pattern>
@@ -72,19 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraysChallenge.SumOfArrays" />
-      <module name="Week 1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arraysChallenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="arraysChallenges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arraysChallenge.arraysChallenges" />
       <module name="Week 1" />
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindThreeNumbers" />
         <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.FindMinMax" />
         <item itemvalue="Application.arraysChallenges" />
         <item itemvalue="Application.Peak" />
-        <item itemvalue="Application.SumOfArrays" />
       </list>
     </recent_temporary>
   </component>
