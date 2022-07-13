@@ -5,6 +5,5 @@ public class ChairMain {
         Chair arronsChair = new Chair(4,true, 2 );
         Chair jansChair = new Chair(4,true,2);
         jansChair.destroyChair();
-        aaronsChair.removeOccupant();
     }
 }

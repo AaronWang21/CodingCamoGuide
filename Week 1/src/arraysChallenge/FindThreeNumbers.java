@@ -9,15 +9,18 @@ public class FindThreeNumbers {
         int min = Integer.MAX_VALUE;
         int secondMin = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
-        for(int i = 0; i < integerArray.length; i++){
-            if(integerArray[i] < min) {
+        for(int i = 0; i < integerArray.length; i++) {
+            if (integerArray[i] < min) {
                 secondMin = min;
                 min = integerArray[i];
-            }
-            else if(secondMin > integerArray[i]){
+            } else if (secondMin > integerArray[i]) {
                 secondMin = integerArray[i];
             }
-            if(max < integerArray[=System.out.println(min);
+            if(max < integerArray[i]) {
+              max = integerArray[i];
+            }
+        }
+        System.out.println(min);
         System.out.println(secondMin);
         int max2 = max - (min + secondMin);
         System.out.println(max2);

@@ -37,8 +37,4 @@ public class Chair {
     public void setCost(double cost) {
         this.cost = cost;
     }
-    public void removeOccupant(){
-        numberOflegs = 2;
-        isOccupied = f
-    }
 }
