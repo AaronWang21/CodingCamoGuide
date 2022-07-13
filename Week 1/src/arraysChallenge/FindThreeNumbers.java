@@ -17,11 +17,7 @@ public class FindThreeNumbers {
             else if(secondMin > integerArray[i]){
                 secondMin = integerArray[i];
             }
-            if(max < integerArray[i]) {
-                max = integerArray[i];
-            }
-        }
-        System.out.println(min);
+            if(max < integerArray[=System.out.println(min);
         System.out.println(secondMin);
         int max2 = max - (min + secondMin);
         System.out.println(max2);
