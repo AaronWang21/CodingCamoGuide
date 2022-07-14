@@ -1,8 +1,12 @@
 package objectOrientedPrograming;
 
-public class Chair {
+public class Chair extends Furniture{
     public boolean canIBuy(double money){
         return money >= cost;
+    }
+    @Override
+    public void performTask() {
+        System.out.println("Sitting...");
     }
     public void destroyChair(){
         cost = 0;
@@ -36,5 +40,18 @@ public class Chair {
 
     public void setCost(double cost) {
         this.cost = cost;
+    }
+    @Override
+    public boolean equals(Object other) {
+        if(other instanceof Chair){
+            Chair o = (Chair)other;
+            if(numberOfLegs == o.numberOfLegs && isOccupied == o.isOccupied && cost == o.cost){
+                return true;
+            }
+            return false;
+        }
+        else{
+            return false;
+        }
     }
 }

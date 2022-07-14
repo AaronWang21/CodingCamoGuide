@@ -32,9 +32,22 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CardGameMain">
-    <configuration name="CardGameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objectOrientedPrograming.CardGameMain" />
+  <component name="RunManager" selected="Application.PetMain">
+    <configuration name="FindThreeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraysChallenge.FindThreeNumbers" />
+      <module name="Week 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraysChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectOrientedPrograming.PetMain" />
       <module name="Week 1" />
       <extension name="coverage">
         <pattern>
@@ -46,25 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraysChallenge.FindMinMax" />
+    <configuration name="PointMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectOrientedPrograming.PointMain" />
       <module name="Week 1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arraysChallenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindThreeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraysChallenge.FindThreeNumbers" />
-      <module name="Week 1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arraysChallenge.*" />
+          <option name="PATTERN" value="objectOrientedPrograming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="objectOrientedPrograming.PointMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objectOrientedPrograming.PointMain" />
+    <configuration name="objectOrientedPrograming.CardGameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectOrientedPrograming.CardGameMain" />
       <module name="Week 1" />
       <extension name="coverage">
         <pattern>
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CardGameMain" />
+        <item itemvalue="Application.PetMain" />
+        <item itemvalue="Application.objectOrientedPrograming.CardGameMain" />
         <item itemvalue="Application.FindThreeNumbers" />
         <item itemvalue="Application.objectOrientedPrograming.PointMain" />
         <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.FindMinMax" />
       </list>
     </recent_temporary>
   </component>
