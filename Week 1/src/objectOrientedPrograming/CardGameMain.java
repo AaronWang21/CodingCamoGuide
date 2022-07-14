@@ -12,7 +12,7 @@ public class CardGameMain {
         Scanner sc = new Scanner(System.in);
 
         System.out.println();
-        System.out.println("Type is a player's name");
+        System.out.println("Type in a player's name");
         String s1 = sc.nextLine();
         System.out.println();
         System.out.println("Type in other player's name");
@@ -71,14 +71,14 @@ public class CardGameMain {
                 if (selectedIndex >= 1 && selectedIndex <= 5) {
                     break;
                 } else {
-                    System.out.println("number is out of range! Select a card, 1 through 5");
+                    System.out.println("Number is out of range! Select a card, 1 through 5");
                 }
             }
 
             currentPlayer.useCard(selectedIndex, opposingPlayer);
             System.out.println();
-            System.out.println(currentName + " health: " + currentPlayer.getHealth());
-            System.out.println(opposingName + " health: " + opposingPlayer.getHealth());
+            System.out.println(currentName + "'s health: " + currentPlayer.getHealth());
+            System.out.println(opposingName + "'s health: " + opposingPlayer.getHealth());
             System.out.println();
 
             if (opposingPlayer.getHealth() <= 0) {
