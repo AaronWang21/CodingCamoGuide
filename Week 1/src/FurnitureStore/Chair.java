@@ -1,13 +1,13 @@
 package FurnitureStore;
 
 public abstract class Chair implements Furniture{
-    protected int defence;
+    protected int defense;
     protected int durability;
     protected int cost;
     protected String occupant;
 
     public Chair(int defence, int durability, int cost, String occupant) {
-        this.defence = defence;
+        this.defense = defence;
         this.durability = durability;
         this.cost = cost;
         this.occupant = occupant;
@@ -19,12 +19,19 @@ public abstract class Chair implements Furniture{
         return durability;
     }
     public int getDefense(){
-        return defence;
+        return defense;
     }
     public void decreaseDurability(){
         durability--;
     }
     public void onDestroy(){
-        defence = 0;
+        defense = 0;
+    }
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + ":"
+                + "\n  Cost: " + cost
+                + "\n  Durability: " + durability
+                + "\n  Defense: " + defense;
     }
 }
