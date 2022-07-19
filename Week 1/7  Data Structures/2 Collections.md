@@ -17,9 +17,43 @@ There are two main root interfaces: Collection and Maps.
 All Collections have these methods.
 
 `add(element)` adds an element to the collection
+
 `addAll(collection)` adds all elements from a collection to this collection 
+
 `clear()` clears collection
+
 `contains(element)` returns true if collection contains the element.
+
 `remove(element)` remove the element
+
 `size()` returns the size of the collection
+
 `toArray()` returns an array with all collection elements
+
+### Different Collections you will use
+
+`ArrayList<>` resizeable array
+
+`LinkedList` Stores a list of elements in object containers called Nodes, which are link together.
+
+`HashSet<>` Set implementation hat uses a Hash Table to look up values instantly, however, oorder is not held (no indexes). They store unique values
+
+`TreeSet<>` A set that is implemented using a binary search tree. Not indexed, but has order.
+
+`HashMap<>` Maps use a key to lookup a value, Hashmaps use Hash tables to store these maps
+
+`TreeMap<>` Map that is implemented
+
+### Node
+
+A single element of a structure such as a LinkedList. Each node contains one data value.
+
+### Hash
+
+A function that converts one value to another. The ouput of the Hash function is smaller than the input (allowing you store it.)
+
+HashMaps store strings by converting the string into numbers that can be used for lookup.
+
+We use hashing to instantaneously lookup values, converting non-numerical values into numerical lookup values.
+
+  
