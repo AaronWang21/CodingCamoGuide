@@ -1,5 +1,7 @@
 package javaCollections.linkedListImplementation;
 
+import java.util.ArrayList;
+
 public class MyLinkedList {
     private Node firstNode;
 
@@ -45,5 +47,51 @@ public class MyLinkedList {
             index ++;
         }
         return index;
+    }
+    public boolean isPrime(int num){
+        if (num <= 1) {
+            return false;
+        }
+        for(int i = 2; i * i <= num; i++){
+            if(num % i == 0){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public int sumOfPrime(){
+        Node current = firstNode;
+        int sum = 0;
+        while(current != null){
+            if(isPrime(current.data)){
+                sum += current.data;
+            }
+            current = current.next;
+        }
+        return sum;
+    }
+    public void switchNode(){
+        if(firstNode == null || firstNode.next == null){
+           return;
+        }
+        Node previous = firstNode;
+        Node current = firstNode.next;
+        while(current.next != null){
+            previous = current;
+            current = current.next;
+        }
+        previous.next = null;
+        current.next = firstNode;
+        firstNode = current;
+    }
+    public String toString(){
+        StringBuilder sdfkljsdl = new StringBuilder();
+        Node current = firstNode;
+        while(current != null){
+            sdfkljsdl.append(current.data).append(" ");
+            current = current.next;
+        }
+        return sdfkljsdl.toString();
     }
 }
