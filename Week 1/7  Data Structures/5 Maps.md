@@ -102,3 +102,18 @@ public class Main{
     }
 }
 ```
+
+#### Image
+
+![img_6.png](img_6.png)
+
+#### Benefits
+
+- Logarithmic time insertion, deletion, lookup
+- Ordered from least to greatest by key
+- Guaranteed time complexity
+
+### Drawbakcs
+
+- Slower than`HashMap`
+
