@@ -25,14 +25,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Aaron/GitHub/CodingCamoGuide"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aaron/GitHub/CodingCamoGuide&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.HashSetChallenge">
+    <configuration name="CardGameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectOrientedPrograming.CardGameMain" />
+      <module name="CodingCamoGuide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objectOrientedPrograming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FurnitureMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FurnitureStore.FurnitureMain" />
+      <module name="CodingCamoGuide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FurnitureStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashSetChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaCollections.setsAndMaps.HashSetChallenge" />
+      <module name="CodingCamoGuide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaCollections.setsAndMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyLinkedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaCollections.linkedListImplementation.MyLinkedListMain" />
       <module name="CodingCamoGuide" />
@@ -48,6 +87,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashSetChallenge" />
+        <item itemvalue="Application.CardGameMain" />
+        <item itemvalue="Application.FurnitureMain" />
         <item itemvalue="Application.MyLinkedListMain" />
       </list>
     </recent_temporary>
