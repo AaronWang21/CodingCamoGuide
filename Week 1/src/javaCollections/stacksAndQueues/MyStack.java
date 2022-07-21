@@ -1,5 +1,5 @@
 package javaCollections.stacksAndQueues;
-public class Stack {
+public class MyStack {
     private Node firstNode;
     public void push(int value){
         firstNode = new Node(value, firstNode);

@@ -1,6 +1,8 @@
 package javaCollections.stacksAndQueues;
 
-public class Queue {
+import org.w3c.dom.ls.LSOutput;
+
+public class MyQueue {
     private Node firstNode;
     private Node lastNode;
 
@@ -25,4 +27,12 @@ public class Queue {
         }
         return temp;
     }
+    public boolean isEmpty (){
+        return firstNode == null;
+    }
+    public void clear(){
+        firstNode = null;
+        lastNode = null;
+    }
+
 }
