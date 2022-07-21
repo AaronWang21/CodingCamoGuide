@@ -33,7 +33,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Aaron/GitHub/CodingCamoGuide&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MyTreeMain">
     <configuration name="CardGameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objectOrientedPrograming.CardGameMain" />
       <module name="CodingCamoGuide" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaCollections.linkedListImplementation.MyLinkedListMain" />
+    <configuration name="MyTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="treesGraphsRecursion.trees.MyTreeMain" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaCollections.linkedListImplementation.*" />
+          <option name="PATTERN" value="treesGraphsRecursion.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTreeMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HashSetChallenge" />
         <item itemvalue="Application.CardGameMain" />
         <item itemvalue="Application.FurnitureMain" />
-        <item itemvalue="Application.MyLinkedListMain" />
       </list>
     </recent_temporary>
   </component>
