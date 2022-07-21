@@ -17,4 +17,12 @@ public class Queue {
     public int peek (){
         return firstNode.data;
     }
+    public int remove(){
+        int temp = firstNode.data;
+        firstNode = firstNode. next;
+        if(firstNode == null){
+            lastNode = null;
+        }
+        return temp;
+    }
 }
