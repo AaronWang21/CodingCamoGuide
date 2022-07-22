@@ -33,7 +33,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Aaron/GitHub/CodingCamoGuide&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RecursionChallenges">
+  <component name="RunManager" selected="Application.treesGraphsRecursion.recursion.RecursionChallenges">
     <configuration name="CardGameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objectOrientedPrograming.CardGameMain" />
       <module name="CodingCamoGuide" />
@@ -86,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionChallenges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursionChallenges" />
+    <configuration name="treesGraphsRecursion.recursion.RecursionChallenges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="treesGraphsRecursion.recursion.RecursionChallenges" />
       <module name="CodingCamoGuide" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,7 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RecursionChallenges" />
+        <item itemvalue="Application.treesGraphsRecursion.recursion.RecursionChallenges" />
         <item itemvalue="Application.MyTreeMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HashSetChallenge" />
