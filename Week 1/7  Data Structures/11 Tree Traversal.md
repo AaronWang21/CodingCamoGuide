@@ -1,6 +1,6 @@
 # Traverse a Tree
 
-What if you wanted to visit every element ina tree, and you did that, so you could find an element, or operate on all the elements. This is where tree traversal comes into play.
+What if you wanted to visit every element in a tree, and you did that, so you could find an element, or operate on all the elements. This is where tree traversal comes into play.
 
 ### Depth First Search
 
