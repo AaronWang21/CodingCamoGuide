@@ -38,7 +38,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.ReverseBinarySearch">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searchingSorting.BinarySearch" />
       <module name="CodingCamoGuide" />
@@ -52,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaCollections.stacksAndQueues.Main" />
+    <configuration name="MyTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="treesGraphsRecursion.trees.MyTreeMain" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaCollections.stacksAndQueues.*" />
+          <option name="PATTERN" value="treesGraphsRecursion.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="treesGraphsRecursion.trees.MyTreeMain" />
+    <configuration name="ReverseBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchingSorting.ReverseBinarySearch" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="treesGraphsRecursion.trees.*" />
+          <option name="PATTERN" value="searchingSorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseBinarySearch" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SearchingProblems" />
         <item itemvalue="Application.treesGraphsRecursion.recursion.RecursionChallenges" />
         <item itemvalue="Application.MyTreeMain" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
