@@ -38,13 +38,13 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SearchingProblems">
-    <configuration name="HashSetChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaCollections.setsAndMaps.HashSetChallenge" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchingSorting.BinarySearch" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaCollections.setsAndMaps.*" />
+          <option name="PATTERN" value="searchingSorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SearchingProblems" />
         <item itemvalue="Application.treesGraphsRecursion.recursion.RecursionChallenges" />
         <item itemvalue="Application.MyTreeMain" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HashSetChallenge" />
       </list>
     </recent_temporary>
   </component>
