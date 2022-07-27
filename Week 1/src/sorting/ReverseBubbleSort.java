@@ -1,12 +1,14 @@
 package sorting;
+
 import java.util.Arrays;
-public class BubbleSort {
+
+public class ReverseBubbleSort {
     public static void main(String[] args) {
-        int[] arr = {7,5,8,2,3,4,1,9,6};
-        bubbleSort(arr);
+        int[] arr = {4,5,7,3,9,6,9,3,1};
+        reverseBubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
-    public static void bubbleSort(int[] array) {
+    public static void reverseBubbleSort(int[] array) {
         int counter = 0;
         int temp = 0;
         for (;;) {
@@ -15,10 +17,10 @@ public class BubbleSort {
             }
             counter = 0;
             for(int i = 0; i < array.length - 1; i ++ ){
-                if (array[i] <= array[i + 1]) {
+                if (array[i] >= array[i + 1]) {
                     counter += 1;
                 }
-                else if (array[i] > array[i + 1]) {
+                else if (array[i] < array[i + 1]) {
                     temp = array[i];
                     array[i] = array[i + 1];
                     array[i + 1] = temp;
