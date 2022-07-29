@@ -109,12 +109,16 @@ public class Main{
         for(int i = 1; i < arr.length; i++){
             // Key is the value at the beginning of the unsorted section
             int key = arr[i];
-            // Index keep track of
+            // Index keep track of the index of the value we are comparing the key to
             int index = i - 1;
+            // As long as key is less than the value at index, we decrease the index
             while(index >= 0 && key < arr[index] ){
+                // Moves the value at index one to the right
                 arr[index + 1] = arr[index];
                 index--;
             }
+            // Set the value at index + 2 to the key because the key is not longer
+            // smaller than the value at index
             arr[index + 1] = key;
         }
     }

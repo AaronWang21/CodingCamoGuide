@@ -1,0 +1,9 @@
+package challengeQuestions;
+
+import java.util.Scanner;
+
+public class MissingNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+    }
+}
