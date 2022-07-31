@@ -39,9 +39,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.challengeQuestions.WeirdAlgorithm">
-    <configuration name="CombiningTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.CombiningTwoArrays" />
+  <component name="RunManager" selected="Application.MissingNumber">
+    <configuration name="CountingSortAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.CountingSortAlgorithm" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
@@ -53,8 +53,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.Insertion" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challengeQuestions.MissingNumber" />
+      <module name="CodingCamoGuide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challengeQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.Sort" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneArrayMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.OneArrayMergeSort" />
+    <configuration name="sorting.QuickMergeSortChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.QuickMergeSortChallenge" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
@@ -79,33 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeirdAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challengQuestion.WeirdAlgorithm" />
+    <configuration name="sorting.TwoDArrayBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.TwoDArrayBubbleSort" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="challengQuestion.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="challengeQuestions.WeirdAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challengeQuestions.WeirdAlgorithm" />
-      <module name="CodingCamoGuide" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.challengeQuestions.WeirdAlgorithm" />
-        <item itemvalue="Application.WeirdAlgorithm" />
-        <item itemvalue="Application.OneArrayMergeSort" />
-        <item itemvalue="Application.CombiningTwoArrays" />
-        <item itemvalue="Application.Insertion" />
+        <item itemvalue="Application.MissingNumber" />
+        <item itemvalue="Application.CountingSortAlgorithm" />
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.sorting.QuickMergeSortChallenge" />
+        <item itemvalue="Application.sorting.TwoDArrayBubbleSort" />
       </list>
     </recent_temporary>
   </component>
