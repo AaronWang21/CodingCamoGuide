@@ -1,4 +1,4 @@
-package challengeQuestions;
+package competitiveProgramming;
 import java.util.Scanner;
 public class IncreasingArray {
     public static void main(String[] args) {

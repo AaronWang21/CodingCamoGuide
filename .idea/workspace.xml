@@ -40,13 +40,44 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Permutations">
-    <configuration name="IncreasingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challengeQuestions.IncreasingArray" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aaron\GitHub\CodingCamoGuide" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SquarePasture">
+    <configuration name="BillboardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.BillboardTest" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="challengeQuestions.*" />
+          <option name="PATTERN" value="competitiveProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BillboardTruck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.BillboardTruck" />
+      <module name="CodingCamoGuide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="competitiveProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FencePainting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.FencePainting" />
+      <module name="CodingCamoGuide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="competitiveProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,11 +86,11 @@
       </method>
     </configuration>
     <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challengeQuestions.Permutations" />
+      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.Permutations" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="challengeQuestions.*" />
+          <option name="PATTERN" value="competitiveProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,32 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Repetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Repetitions" />
-      <module name="CodingCamoGuide" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="challengeQuestions.Repetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challengeQuestions.Repetitions" />
+    <configuration name="SquarePasture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.SquarePasture" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="challengeQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="inputOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challengeQuestions.inputOut" />
-      <module name="CodingCamoGuide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challengeQuestions.*" />
+          <option name="PATTERN" value="competitiveProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Permutations" />
-        <item itemvalue="Application.inputOut" />
-        <item itemvalue="Application.IncreasingArray" />
-        <item itemvalue="Application.challengeQuestions.Repetitions" />
-        <item itemvalue="Application.Repetitions" />
+        <item itemvalue="Application.SquarePasture" />
+        <item itemvalue="Application.competitiveProgramming.BillboardTruck" />
+        <item itemvalue="Application.competitiveProgramming.BillboardTest" />
+        <item itemvalue="Application.competitiveProgramming.FencePainting" />
+        <item itemvalue="Application.competitiveProgramming.Permutations" />
       </list>
     </recent_temporary>
   </component>

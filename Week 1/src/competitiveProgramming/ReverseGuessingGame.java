@@ -1,4 +1,4 @@
-package challengeQuestions;
+package competitiveProgramming;
 import java.util.Random;
 import java.util.Scanner;
 public class ReverseGuessingGame {
