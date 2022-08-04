@@ -45,20 +45,7 @@
       <recent name="C:\Users\Aaron\GitHub\CodingCamoGuide" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SquarePasture">
-    <configuration name="BillboardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.BillboardTest" />
-      <module name="CodingCamoGuide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="competitiveProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.dfgf">
     <configuration name="BillboardTruck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="competitiveProgramming.BillboardTruck" />
       <module name="CodingCamoGuide" />
@@ -111,13 +98,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dfgf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.dfgf" />
+      <module name="CodingCamoGuide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="competitiveProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dfgf" />
         <item itemvalue="Application.SquarePasture" />
-        <item itemvalue="Application.competitiveProgramming.BillboardTruck" />
-        <item itemvalue="Application.competitiveProgramming.BillboardTest" />
-        <item itemvalue="Application.competitiveProgramming.FencePainting" />
-        <item itemvalue="Application.competitiveProgramming.Permutations" />
       </list>
     </recent_temporary>
   </component>
