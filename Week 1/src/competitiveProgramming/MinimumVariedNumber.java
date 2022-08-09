@@ -38,7 +38,6 @@ public class MinimumVariedNumber {
     }
     public static void name(int index, int currentSum, int[] a, int[] b, int[] answer, int depth, int previous, ArrayList<Integer>[] adj){
         currentSum += a[index];
-        currentSum -= b[index];
         if(currentSum >= 0){
             answer[index] = depth;
         }
