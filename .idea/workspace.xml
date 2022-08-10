@@ -45,9 +45,9 @@
       <recent name="C:\Users\Aaron\GitHub\CodingCamoGuide" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dfgf">
-    <configuration name="BillboardTruck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.BillboardTruck" />
+  <component name="RunManager" selected="Application.MinimumVariedNumber">
+    <configuration name="FencePainting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.FencePainting" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FencePainting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.FencePainting" />
+    <configuration name="MinimumVariedNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="competitiveProgramming.MinimumVariedNumber" />
       <module name="CodingCamoGuide" />
       <extension name="coverage">
         <pattern>
@@ -113,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumVariedNumber" />
         <item itemvalue="Application.dfgf" />
         <item itemvalue="Application.SquarePasture" />
       </list>

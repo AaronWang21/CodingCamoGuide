@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.ArrayDeque;
 import java.util.StringTokenizer;
 public class MinimumVariedNumber {
     public static void main(String[] args) throws IOException {
@@ -27,7 +28,7 @@ public class MinimumVariedNumber {
                 adj[pj].add(j);
             }
             int[] answer = new int[n];
-            name(0,0,a,b, answer, 0, 0, adj);
+            name(0,0, 0,a,b, answer, 0, adj, new ArrayDeque<>());
             for(int j = 1; j < n; j++){
                 out.print(answer[j]);
                 out.print(" ");
@@ -36,16 +37,18 @@ public class MinimumVariedNumber {
         }
         out.flush();
     }
-    public static void name(int index, int currentSum, int[] a, int[] b, int[] answer, int depth, int previous, ArrayList<Integer>[] adj){
-        currentSum += a[index];
-        if(currentSum >= 0){
-            answer[index] = depth;
+    public static void name(int index, int aSum, int bSum, int[] a, int[] b, int[] answer, int depth, ArrayList<Integer>[] adj, ArrayDeque<Integer> adq){
+        aSum += a[index];
+        while(!adq.isEmpty() && adq.getFirst() + bSum < aSum){
+            depth++;
+            bSum += adq.getFirst();
+            adq.removeFirst();
         }
-        else{
-            answer[index] = previous;
-        }
+        adq.addLast(b[index]);
+        answer[index] = bSum;
         for(int child : adj[index]){
-            name(child, currentSum, a, b, answer, depth + 1, answer[index], adj);
+            name(child, aSum, bSum, a, b, answer, depth + 1, adj, adq);
         }
+        adq.removeLast();
     }
 }
